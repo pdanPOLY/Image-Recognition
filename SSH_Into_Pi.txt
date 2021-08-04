@@ -1,0 +1,13 @@
+SSH into Raspberry Pi
+For PuTTY:
+RPi IP: 192.168.137.96 (could change, use Advanced IP Scanner to find out)
+Name: raspberrypi.mshome.net if the previous doesn't work
+Login as: pi
+Password: prithwishsurp
+Type in command--> vncserver :1 -geometry 1920x1080 -depth 24
+
+
+
+
+Go to VNC Viewer and type in the IP followed by :1 and it'll open
+Add a ':1' at the end for VNC Viewer
